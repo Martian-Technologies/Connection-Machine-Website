@@ -15,6 +15,9 @@ params:
       height: 32
   page:
     width: normal
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
 menu:
   main:
     # - name: Documetation
