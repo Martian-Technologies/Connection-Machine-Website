@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --external-color: rgb(40, 40, 40);
+  --navbar-color: rgb(54, 54, 54);
+  --bg-color: rgb(70, 70, 70);
+  color: white;
+  background-color: var(--bg-color);
+}
+
+/* Structural Styles */
+
+header {
+  background-color: var(--external-color);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--external-color);
+  width: 100%;
+}
+
+/* Navbar Styles */
+
+#navbar {
+  text-align: center;
+  background-color: var(--navbar-color);
+  padding: 1rem;
+}
+
+#navbar a {
+  background-color: var(--bg-color);
+  padding: 0.25rem 1rem;
+}
