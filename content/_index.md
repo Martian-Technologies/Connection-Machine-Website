@@ -14,10 +14,10 @@ Gatality is an open-source desktop application for designing and simulating digi
 - **Tensor connect**: Allows you to perform enormous connections by projecting your circuit across space.
 - **Fast simulation**: We use a custom-built simulation engine that can simulate entire computers in real-time.
 - **Open-source**: All our code is open-source and free to use. You can contribute to the project on [GitHub](https://github.com/Martian-Technologies/Logic-Graph-Creator).
+- **Custom components**: Create your own components and use them in your designs.
 
 ## Planned features
 
-- **Custom components**: Create your own components and use them in your designs.
 - **GPU acceleration**: Use your GPU to perform simulations at blazing speeds.
 - **Real-world interaction**: Connect your designs to the real world to play sounds, or play a game with a controller.
 - **Online circuit catalog**: Share your designs with the world and download designs from others.
