@@ -1,13 +1,13 @@
 ---
 date: '2025-01-07T23:50:09+01:00'
 draft: false
-title: 'Gatality'
+title: 'Connection Machine'
 description: 'An open-source tool for designing and simulating digital circuits at scale.'
 ---
 
-## What is Gatality?
+## What is Connection Machine?
 
-Gatality is an open-source desktop application for designing and simulating digital circuits at scale. It is being built as a university project for [RCOS](https://handbook.rcos.io/#/?id=main). You can get a build of the application from the [releases page](https://github.com/Martian-Technologies/Logic-Graph-Creator/releases/) on GitHub.
+Connection Machine is an open-source and cross-platform desktop application for designing and simulating digital circuits at scale. It is being built as a university project for [RCOS](https://handbook.rcos.io/#/?id=main). You can get a build of the application from the [releases page](https://github.com/Martian-Technologies/Logic-Graph-Creator/releases/) on GitHub.
 
 ## Features
 

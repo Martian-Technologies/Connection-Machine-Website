@@ -1,4 +1,4 @@
-module github.com/Martian-Technologies/Gatality-Website
+module github.com/Martian-Technologies/Connection-Machine-Website
 
 go 1.22.5
 
