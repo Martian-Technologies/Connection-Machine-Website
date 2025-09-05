@@ -38,7 +38,7 @@ menu:
     #   params:
     #     type: search
     - name: Github
-      url: "https://github.com/Martian-Technologies/Logic-Graph-Creator"
+      url: "https://github.com/Martian-Technologies/Connection-Machine"
       weight: 4
       params:
         icon: github
