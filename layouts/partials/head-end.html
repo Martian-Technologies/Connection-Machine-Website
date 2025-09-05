@@ -1,0 +1,41 @@
+{{- $site := .Site -}}
+{{- $base := $site.BaseURL -}}
+{{- $title := or $site.Title "Website" -}}
+{{- $logo := (print $base (or (index $site.Params "logo" | default dict).path "/images/logo.png")) -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "{{ $base }}",
+  "name": "{{ $title }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ $base }}?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "{{ $base }}",
+  "name": "{{ $title }}",
+  "logo": "{{ $logo }}",
+  "sameAs": [
+    "https://github.com/Martian-Technologies/Logic-Graph-Creator"
+  ]
+}
+</script>
+
+{{- /* If the page has images or site default images, prefer the first as social image */ -}}
+{{- $imgs := or .Params.images $site.Params.images -}}
+{{- if $imgs }}
+  {{- $img := index $imgs 0 -}}
+  <meta property="og:image" content="{{ $img | absURL }}">
+  <meta name="twitter:image" content="{{ $img | absURL }}">
+  <meta name="twitter:card" content="summary_large_image">
+{{- end -}}
+

@@ -3,6 +3,8 @@ date: '2025-01-07T23:50:09+01:00'
 draft: false
 title: 'Connection Machine'
 description: 'An open-source tool for designing and simulating digital circuits at scale.'
+images:
+  - /images/logo.png
 ---
 
 ## What is Connection Machine?

@@ -4,6 +4,11 @@ title: Connection Machine
 module:
   imports:
     - path: github.com/imfing/hextra
+enableRobotsTXT: true
+sitemap:
+  changefreq: weekly
+  priority: 0.6
+  filename: sitemap.xml
 params:
   navbar:
     displayTitle: true
@@ -18,6 +23,8 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: false
+  images:
+    - /images/logo.png
 menu:
   main:
     # - name: Documetation

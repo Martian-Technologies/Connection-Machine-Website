@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://connection-machine.com/sitemap.xml
