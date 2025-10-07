@@ -9,7 +9,7 @@ images:
 
 ## What is Connection Machine?
 
-Connection Machine is an open-source and cross-platform desktop application for designing and simulating digital circuits at scale. It is being built as a university project for [RCOS](https://handbook.rcos.io/#/?id=main). You can get a build of the application from the [releases page](https://github.com/Martian-Technologies/Connection-Machine/releases/) on GitHub.
+Connection Machine is an open-source and cross-platform desktop application for designing and simulating digital circuits at scale. It is being built as a university project for [RCOS](https://handbook.rcos.io/#/?id=main). You can get a build of the application from the [releases page](https://github.com/Martian-Technologies/Connection-Machine/releases/) on GitHub, or [build the app yourself](/building/).
 
 ## Features
 
